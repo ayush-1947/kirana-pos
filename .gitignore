@@ -1,0 +1,7 @@
+node_modules/
+pos_data.db
+*.db-shm
+*.db-wal
+.env
+.DS_Store
+Thumbs.db
