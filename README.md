@@ -1,11 +1,11 @@
-# 🛒 Kirana POS — Point of Sale System
+#  Kirana POS — Point of Sale System
 
 A fast, mobile-friendly POS system for kirana/small shops with barcode scanning,
 cart management, thermal printing, and UPI QR payment.
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 pos-app/
@@ -24,7 +24,7 @@ pos-app/
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Prerequisites
 - **Node.js** v18+ → https://nodejs.org/
@@ -64,7 +64,7 @@ npm run dev   # requires: npm install -D nodemon
 
 ---
 
-## 📱 Install as PWA (Mobile)
+##  Install as PWA (Mobile)
 
 1. Open http://YOUR_PC_IP:3000 in Chrome/Safari on mobile
 2. Tap the **"Add to Home Screen"** banner (or browser menu)
@@ -72,7 +72,7 @@ npm run dev   # requires: npm install -D nodemon
 
 ---
 
-## 🔧 Features
+##  Features
 
 | Feature | Details |
 |---|---|
@@ -90,7 +90,7 @@ npm run dev   # requires: npm install -D nodemon
 
 ---
 
-## 🗄️ SQLite Database
+##  SQLite Database
 
 The database file `pos_data.db` is auto-created on first run.
 
@@ -123,7 +123,7 @@ CREATE TABLE sales (
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 | Method | Path | Description |
 |---|---|---|
@@ -140,7 +140,7 @@ CREATE TABLE sales (
 
 ---
 
-## 🧾 Thermal Printer Setup
+##  Thermal Printer Setup
 
 The app generates print-friendly output. To use with a thermal printer:
 
@@ -159,7 +159,7 @@ For direct mobile printing, you can extend this with:
 
 ---
 
-## 📤 Data Export / Sync
+## Data Export / Sync
 
 **Export to JSON:**
 - Go to **Products** tab → click **Export JSON**
@@ -182,7 +182,7 @@ For direct mobile printing, you can extend this with:
 
 ---
 
-## 🌱 Sample Data (Pre-loaded)
+##  Sample Data (Pre-loaded)
 
 The app seeds 8 example products on first run:
 
@@ -199,28 +199,10 @@ The app seeds 8 example products on first run:
 
 ---
 
-## 🔒 Security Notes
 
-- This is a **local prototype** — no authentication
-- For production, add:
-  - Login/PIN screen
-  - HTTPS (use nginx + Let's Encrypt)
-  - Input validation/sanitization (basic XSS escaping is included)
-  - Rate limiting
 
 ---
 
-## 🚀 Future Improvements
-
-- [ ] Multi-user support with roles (admin/cashier)
-- [ ] Stock management & low-stock alerts
-- [ ] Customer database with purchase history
-- [ ] GST-compliant invoice generation (PDF)
-- [ ] Cloud backup (Firebase/AWS)
-- [ ] Direct ESC/POS thermal printing
-- [ ] Daily/weekly sales reports
-- [ ] Discount & coupon system
-- [ ] WhatsApp bill sharing
 
 ---
 
